@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         dogYearsLabel.hidden = false
         dogYearsLabel.text = "\(intFromOptional * 7)" + " Human Years"
         
-        humanYearsTextField.text = " "
+        humanYearsTextField.text = ""
         humanYearsTextField.resignFirstResponder()
         
     }
@@ -52,7 +52,7 @@ class ViewController: UIViewController {
         dogYearsLabel.hidden = false
         dogYearsLabel.text = "\(realDogYears)" + " Real Human Years"
         
-        humanYearsTextField.text = " "
+        humanYearsTextField.text = ""
         humanYearsTextField.resignFirstResponder()
     }
 
