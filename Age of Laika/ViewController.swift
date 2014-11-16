@@ -28,6 +28,9 @@ class ViewController: UIViewController {
         let optionalIntFromTextField = stringFromTextField.toInt()
         let intFromOptional = optionalIntFromTextField!
         
+        if optionalIntFromTextField != nil {
+            let optionalIntFromTextField = stringFromTextField.toInt()
+        }
         dogYearsLabel.hidden = false
         dogYearsLabel.text = "\(intFromOptional * 7)" + " Human Years"
         
